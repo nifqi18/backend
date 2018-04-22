@@ -5,7 +5,7 @@
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development node server.js",
+    "start": "node --harmony_proxies server.js",
     "test": "node ace test"
   },
   "keywords": [
